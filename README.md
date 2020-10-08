@@ -9,7 +9,7 @@ mvn spring-boot:run
 to post data:
 ```
 curl -X POST \
-  http://localhost:8080/api/users \
+  http://localhost:8080/ \
   -H 'accept: application/xml' \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
